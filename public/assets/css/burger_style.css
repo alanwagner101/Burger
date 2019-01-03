@@ -1,14 +1,22 @@
 body{
+    text-align: center;
+    height: 100vh;
     background-image: url(../img/restaurant.jpg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .jumbotron{
-    background-color: #ffffff88;
+    background-color: #ffffffcc;
 }
 
 .card{
-    background-color: #ffffff88;
+    background-color: #ffffffcc;
+}
+
+#burgerPic{
+    text-align: center;
+    height: 150px;
+    width: 150px;
 }
