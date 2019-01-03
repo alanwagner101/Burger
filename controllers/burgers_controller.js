@@ -47,6 +47,16 @@ router.put("/api/burgers/:id", function (req, res) {
             res.status(200).end();
         }
     });
+});
+
+router.delete("/api/burgers", function (req, res) {
+    var condition = "devoured = 1";
+
+    burger.delete(
+        condition, function (result) {
+            console.log(result);
+        }
+    )
 })
 
 module.exports = router;

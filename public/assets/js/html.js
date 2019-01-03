@@ -37,4 +37,15 @@ $(function() {
         });
     });
 
+    $("#delete").on("click", function(event) {
+        event.preventDefault();
+
+        $.ajax("/api/burgers", {
+            type: "DELETE",
+        }).then(function() {
+            console.log("deleting all devoured burgers");
+            location.reload();
+        });
+    });
+
 });
