@@ -1,0 +1,14 @@
+body{
+    background-image: url(../img/restaurant.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: #ffffff88;
+}
+
+.card{
+    background-color: #ffffff88;
+}
