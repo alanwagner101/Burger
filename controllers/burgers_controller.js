@@ -55,6 +55,7 @@ router.delete("/api/burgers", function (req, res) {
     burger.delete(
         condition, function (result) {
             console.log(result);
+            res.status(200).end();
         }
     )
 })
